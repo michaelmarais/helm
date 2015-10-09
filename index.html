@@ -18,11 +18,15 @@
 	</head>
 	<body>
 		<div id="container" class="container">
+			<img src="img/Helm_WordMark.svg" alt="Helm Logo" class="mainLogo" id="logo">
+			<a href="mailto:someone@example.com?Subject=Hello%20Helm" class="extraLink contactLink">CONTACT</a>
+			<a href="blog" class="extraLink blogLink">BLOG</a>
+
 			<header class="intro">
 				<img class="intro__image" src="img/hair2.jpg" alt="Iceland galcier"/>
 				<div class="intro__content">
-					<h1 class="intro__title">A WEB STUDIO BUILT FOR SALONS</h1>
-					<h1 class="intro__title  intro__title--overlay">A WEB STUDIO BUILT FOR SALONS</h1>
+					<h1 class="intro__title">A WEB STUDIO FOR SALONS</h1>
+					<!-- <h1 class="intro__title  intro__title--overlay">A WEB STUDIO BUILT FOR SALONS</h1> -->
 					<div class="intro__subtitle">
 						<div class="intro__description">
 							A web studio specializing in creating stunning website experiences for salons.
@@ -30,7 +34,7 @@
 						<span class="iconLabel">
 							VIEW WORK
 						</span>
-						<button class="trigger bounce">
+						<button class="trigger bounce" id="bottomTrigger">
 							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
 								<g class="icon icon--grid">
 									<rect x="32.5" y="5.5" width="22" height="22"/>
@@ -66,7 +70,7 @@
 					<h2 class="item__title">E-Commerce</h2>
 				</a>
 				<a href="#" class="item">
-					<img class="item__image" src="img/item5.png" alt="item05"/>
+					<img class="item__image" src="img/item6.png" alt="item05"/>
 					<h2 class="item__title">Sophisticated Back End</h2>
 				</a>
 				<a href="#" class="item">
@@ -81,6 +85,10 @@
 					<img class="item__image" src="img/item8.png" alt="item08"/>
 					<h2 class="item__title">Leave a positive impression</h2>
 				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="img/item8.png" alt="item08"/>
+					<h2 class="item__title">Leave a positive impression</h2>
+				</a>
 			</section>
 			<section class="related">
 				<p>If you enjoyed this demo you might also like:</p>
@@ -88,6 +96,14 @@
 				<a href="http://tympanus.net/Tutorials/PagePreloadingEffect/">Page Preloading Effect</a>
 			</section>
 		</div><!-- /container -->
+		<section class="overlay overlay__item" id="itemSection">
+			<svg width="60px" height="60px" viewBox="0 0 60 60" preserveAspectRatio="none" id="closeItemContainer">
+				<g class="icon icon--cross closeOverlay" id="closeItemOverlay">
+					<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+					<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+				</g>
+			</svg>
+		</section>
 		<script src="js/classie.js"></script>
 		<script>
 			(function() {
@@ -123,5 +139,8 @@
 				[].slice.call( document.querySelectorAll('.items-wrap a') ).forEach( function(el) { el.onclick = function() { return false; } } );
 			})();
 		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
