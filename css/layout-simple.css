@@ -62,6 +62,10 @@
 	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
+	font-size: 22px;
+	position: relative;
+	left: -20px;
+	text-shadow: 2px 2px 2px black;
 }
 
 .intro__description {
