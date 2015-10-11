@@ -337,6 +337,7 @@ body {
 .overlay__item{
 	background-color: #F1F1F1;
 	border-left: 5px solid #2a2e39;
+	overflow-y: scroll;
 }
 
 .closeOverlay{
@@ -352,6 +353,12 @@ body {
 	font-weight: bold;
 }
 
+/* cover */
+.cover{
+	width: 100%;
+	height: auto;
+}
+
 .overlay__content{
 	width: 65%;
 	margin-left: 17.5%;
@@ -359,6 +366,8 @@ body {
 
 .overlay__text{
 	font-size: 24px;
+	line-height: 32px;
+	overflow-y: scroll;
 }
 
 .related{
@@ -390,6 +399,17 @@ body {
 	.intro__content {
 		font-size: 0.85em;
 	}
+
+	.cover{
+		width: auto;
+		height: 100%;
+		position: relative;
+		left: -10%;
+	}
+
+	.iconLabel{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 590px) {
@@ -401,6 +421,36 @@ body {
 
 	.intro__title {
 		font-size: 2em;
+	}
+	.cover{
+		width: auto;
+		height: 100%;
+		position: relative;
+		left: -50%;
+	}
+
+	.contactLink{
+		position: fixed;
+		top: 40px;
+		right: 10px;
+		font-size: 16px !important;
+	}
+
+	.blogLink{
+		position: fixed;
+		right: 27px;
+		top: 70px;
+		font-size: 16px !important;
+	}
+
+	.intro__description{
+		display: none;
+	}
+
+	.trigger{
+		position: absolute;
+    	right: 10px;
+    	bottom: 30px;
 	}
 }
 
