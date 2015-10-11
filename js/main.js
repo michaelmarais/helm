@@ -45,7 +45,7 @@ $('#workItem3').click(function(event) {
 $('#workItem4').click(function(event) {
 	$('.overlay__title').html('E-COMMERCE');
 
-	$('.overlay__text').html('When it comes down to it, any business revolves around sales. For a salon, sales means not only appointments but product sales. Most salon&#39;s have no way purchasing their product lines online. Salon&#39;s force users to either buy them in store or go somewhere like Amazon to get their desired product. Incorperating e-commerce into your website allows you to sell even when your salon is not open.');
+	$('.overlay__text').html('When it comes down to it, any business revolves around sales. For a salon, sales means not only appointments but product sales. Most salon&#39;s have no way of purchasing their product lines online. Salon&#39;s force users to either buy them in store or go somewhere like Amazon to get their desired product. Incorperating e-commerce into your website allows you to sell even when your salon is not open.');
 });
 
 $('#workItem5').click(function(event) {
