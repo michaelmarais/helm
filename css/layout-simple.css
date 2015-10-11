@@ -55,6 +55,7 @@
 	font-family: "Playfair Display", Georgia, serif;
 	line-height: 1;
 	color: #FFF5D3;
+	text-shadow: 2px 2px 12px black;
 }
 
 .intro__subtitle {
@@ -62,15 +63,16 @@
 	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
-	font-size: 22px;
-	position: relative;
-	left: -20px;
 	text-shadow: 2px 2px 2px black;
 }
 
 .intro__description {
 	margin: 0 auto 0 1em;
 	line-height: 1.2;
+	font-size: 22px;
+	position: relative;
+	left: -20px;
+	text-shadow: 2px 2px 2px black;
 }
 
 /* Trigger button with SVG */
@@ -189,7 +191,7 @@
 	padding: 1em;
 	color: #dbdbdb;
 	font-size: 1.85em;
-	font-family: "Playfair Display", Georgia, serif;
+	
 	line-height: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
@@ -345,8 +347,27 @@ body {
 	top: 10px;
 }
 
+.overlay__title{
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.overlay__content{
+	width: 65%;
+	margin-left: 17.5%;
+}
+
+.overlay__text{
+	font-size: 24px;
+}
+
 .related{
 	background-color: #2a2e39;
+}
+
+.overlay__item{
+	padding: 50px;
+	color: #8C8C8C;
 }
 
 /* Media Queries */
