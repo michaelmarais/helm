@@ -191,7 +191,7 @@
 	padding: 1em;
 	color: #dbdbdb;
 	font-size: 1.85em;
-	
+	text-transform: uppercase;
 	line-height: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
@@ -340,6 +340,10 @@ body {
 	overflow-y: scroll;
 }
 
+#footerLogo{
+	width: 30%;
+}
+
 .closeOverlay{
 	font-size: 38px !important;
 	color: #B2B2B2;
@@ -371,7 +375,8 @@ body {
 }
 
 .related{
-	background-color: #2a2e39;
+	background-color: #F1F1F1;
+	color: #B2B2B2;
 }
 
 .overlay__item{

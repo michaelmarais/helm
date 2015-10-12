@@ -27,13 +27,13 @@ $('#closeItemContainer').click(function(event) {
 $('#workItem1').click(function(event) {
 	$('.overlay__title').html('STYLE THAT MATCHES YOURS');
 
-	$('.overlay__text').html('We have noticed a large gap in the comparison of a salon&#39;s in store experience versus their online experience. We want to bridge that gap by inspiring the same feelings a client has in your salon but on the web. <br /><br /> This means we study your business and clientele so that we can tailor your site to give visitors the same great experience that they get in your salon. Salon&#39;s do a fantastic job of selling a lifestyle so your website should too.');
+	$('.overlay__text').html('We have noticed a large gap in the comparison of a salon&#39;s in store experience versus their online experience. We want to bridge that gap by inspiring the same feelings a client has in your salon but on the web. <br /><br /> This means we study your business and clientele so that we can tailor your site to give visitors the same great experience that they get in your salon. Salons do a fantastic job of selling a lifestyle so your website should too.');
 });
 
 $('#workItem2').click(function(event) {
 	$('.overlay__title').html('INTERNAL BOOKING');
 
-	$('.overlay__text').html('As salon tech grows, salon&#39;s need to adapt. Allowing your customers to book online is a great way to increase appointments and revenue. When a client books on your site, it should feel safe and secure and supply them with everything they need to walk in on the day of their appointment confident that their appointment is awaiting them.<br /><br />When you internalize your booking process you gain a clients trust. This is due to the fact that most salon sites use an external site to complete booking. Having a potential client leave your site to book on another can break their trust and make them ask questions. This can lead to less conversions for new clients. When a client completes booking without ever having to leave your site, they are assured that their information was handled securely.');
+	$('.overlay__text').html('As salon tech grows, salons need to adapt. Allowing your customers to book online is a great way to increase appointments and revenue. When a client books on your site, it should feel safe and secure and supply them with everything they need to walk in on the day of their appointment confident that their appointment is awaiting them.<br /><br />When you internalize your booking process you gain a clients trust. This is due to the fact that most salon sites use an external site to complete booking. Having a potential client leave your site to book on another can break their trust and make them ask questions. This can lead to less conversions for new clients. When a client completes booking without ever having to leave your site, they are assured that their information was handled securely.');
 });
 
 $('#workItem3').click(function(event) {
@@ -45,7 +45,7 @@ $('#workItem3').click(function(event) {
 $('#workItem4').click(function(event) {
 	$('.overlay__title').html('E-COMMERCE');
 
-	$('.overlay__text').html('When it comes down to it, any business revolves around sales. For a salon, sales means not only appointments but product sales. Most salon&#39;s have no way of purchasing their product lines online. Salon&#39;s force users to either buy them in store or go somewhere like Amazon to get their desired product. Incorperating e-commerce into your website allows you to sell even when your salon is not open.');
+	$('.overlay__text').html('When it comes down to it, any business revolves around sales. For a salon, sales means not only appointments but product sales. Most salons have no way of purchasing their product lines online. Salons force users to either buy them in store or go somewhere like Amazon to get their desired product. Incorperating e-commerce into your website allows you to sell even when your salon is not open.');
 });
 
 $('#workItem5').click(function(event) {
@@ -69,7 +69,7 @@ $('#workItem7').click(function(event) {
 $('#workItem8').click(function(event) {
 	$('.overlay__title').html('LEAVE A POSITIVE IMPRESSION');
 
-	$('.overlay__text').html('Most of your clients love coming to your salon not only for the service you provide, but for the way you and your staff make them feel as they continue on with their day. An appointment is not just a hair cut. It is part hair cut, part therapy session, part recommending restaurants to try, and more.<br /><br />This leaves a huge gap with how salon&#39;s represent themeselves online. Wouldn&#39;t it be great if a salon&#39;s website provided a similar positive experience that went beyond the hair cut? That is exactly what we strive for at Helm.');
+	$('.overlay__text').html('Most of your clients love coming to your salon not only for the service you provide, but for the way you and your staff make them feel as they continue on with their day. An appointment is not just a hair cut. It is part hair cut, part therapy session, part recommending restaurants to try, and more.<br /><br />This leaves a huge gap with how salons represent themeselves online. Wouldn&#39;t it be great if a salon&#39;s website provided a similar positive experience that went beyond the hair cut? That is exactly what we strive for at Helm.');
 });
 
 $('#workItem9').click(function(event) {
